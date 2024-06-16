@@ -1,2 +1,3 @@
 # evolocity
-evolocity website for school
+
+evolocity project for school
