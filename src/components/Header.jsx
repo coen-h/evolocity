@@ -5,7 +5,7 @@ export default function Header() {
         <div id="header">
             <div id="header-section">
                 <div id="header-left">
-                    <p>Logo</p>
+                    <img id="header-image" src="/logo.png" />
                     <p>Kart</p>
                 </div>
                 <div id="header-right">
