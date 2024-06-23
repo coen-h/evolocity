@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
         <div id="header">
             <div id="header-section">
                 <div id="header-left">
-                    <img id="header-image" src="/logo.png" />
-                    <p>Kart</p>
+                    <Link to="/"><img id="header-image" src="/logo.png" /></Link>
+                    <Link to="/kart">Kart</Link>
                 </div>
                 <div id="header-right">
-                    <p>About</p>
-                    <p>Contact</p>
+                    <Link to="/image">Images</Link>
+                    <Link to="/about">About</Link>
                 </div>
             </div>
         </div>
