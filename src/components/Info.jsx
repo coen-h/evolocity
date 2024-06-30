@@ -1,10 +1,21 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 export default function Info() {
     return (
         <div id="info">
             <p id="info-title">What is Evolocity?</p>
-            <div id="info-cardl" className="info-card">
+            <motion.div
+                id="info-cardl" 
+                className="info-card"
+                initial="hidden"
+                whileInView="visible"
+                variants={{
+                  visible: { opacity: 1, y: 0 },
+                  hidden: { opacity: 0, y: 100 }
+                }}
+                transition={{ type: "spring", stiffness: 50, delay: 0.2}}
+            >
                 <div id="info-content">
                     <p>1 - Plan your build.</p>
                     <p>
@@ -14,8 +25,18 @@ export default function Info() {
                     </p>
                 </div>
                 <img id="info-image" src="/3.jpg" />
-            </div>
-            <div id="info-cardr" className="info-card">
+            </motion.div>
+            <motion.div
+                id="info-cardr" 
+                className="info-card"
+                initial="hidden"
+                whileInView="visible"
+                variants={{
+                  visible: { opacity: 1, scale: 1 },
+                  hidden: { opacity: 0, scale: 0.8 }
+                }}
+                transition={{ type: "spring", stiffness: 50, delay: 0.4 }}
+            >
                 <div id="info-content">
                     <p>2 - Start your build!</p>
                     <p>
@@ -25,8 +46,20 @@ export default function Info() {
                     </p>
                 </div>
                 <img id="info-image" src="/2.png" />
-            </div>
-            <div id="info-cardl" className="info-card">
+            </motion.div>
+            <motion.div 
+                id="info-cardl" 
+                className="info-card"
+                initial="hidden"
+                whileInView="visible"
+                
+                variants={{
+                  visible: { opacity: 1, x: 0 },
+                  hidden: { opacity: 0, x: -400 }
+                }}
+                transition={{ type: "spring", stiffness: 50, delay: 0.6 }}
+            >
+
                 <div id="info-content">
                     <p>3 - Race your Kart!</p>
                     <p>
@@ -35,7 +68,7 @@ export default function Info() {
                     </p>
                 </div>
                 <img id="info-image" src="/4.jpg" />
-            </div>
+            </motion.div>
         </div>
     )
 }
