@@ -5,6 +5,7 @@ import About from './pages/About'
 import ScrollToTop from './components/ScrollToTop';
 import Kart from './pages/Kart'
 import Images from './pages/Images'
+import Ashs from './pages/Ashs'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="kart" element={<Kart />} />
         <Route path="image" element={<Images />} />
+        <Route path="ashs" element={<Ashs />} />
       </Routes>
     </BrowserRouter>
   )

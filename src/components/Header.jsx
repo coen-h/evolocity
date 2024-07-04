@@ -8,6 +8,7 @@ export default function Header() {
                 <div id="header-left">
                     <Link to="/"><img id="header-image" src="/logo.png" /></Link>
                     <Link to="/kart">Kart</Link>
+                    <Link to="/ashs">ASHS</Link>
                 </div>
                 <div id="header-right">
                     <Link to="/image">Images</Link>
