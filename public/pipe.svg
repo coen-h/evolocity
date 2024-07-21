@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<rect x="62.439" y="12.488" style="fill:#DBDBDB;" width="249.756" height="124.878"/>
+<rect x="249.756" y="12.488" style="fill:#CCCCCE;" width="62.439" height="124.878"/>
+<rect style="fill:#EDEDED;" width="74.927" height="149.854"/>
+<rect x="374.634" y="199.805" style="fill:#CCCCCE;" width="124.878" height="249.756"/>
+<g>
+	<rect x="362.146" y="437.073" style="fill:#DBDBDB;" width="149.854" height="74.927"/>
+	<rect x="112.389" y="274.732" style="fill:#DBDBDB;" width="124.878" height="174.829"/>
+</g>
+<g>
+	<rect x="99.902" y="437.073" style="fill:#EDEDED;" width="149.854" height="74.927"/>
+	<rect x="99.902" y="212.293" style="fill:#EDEDED;" width="149.854" height="74.927"/>
+</g>
+<path style="fill:#DBDBDB;" d="M362.146,212.293c0-34.484-27.955-62.439-62.439-62.439V0C416.954,0,512,95.047,512,212.293H362.146z
+	"/>
+</svg>
