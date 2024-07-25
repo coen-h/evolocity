@@ -77,6 +77,9 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background:
+        radial-gradient(circle at right, rgba(120, 200, 255, 0.55) 0, transparent 25%),
+        radial-gradient(circle at left, rgba(25, 100, 150, 0.35) 0, transparent 25%);
 }
 #info-title {
     font-size: 3rem;
@@ -123,6 +126,7 @@ a {
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
+    box-shadow: 1px 2px 50px rgb(30, 64, 119);
     padding: 2rem 35rem;
     border-radius: 12px;
     background-color: rgba(0,0,0,0.05);
@@ -152,12 +156,17 @@ a {
     display: flex;
     gap: 10px;
 }
-#footer-image {
-    height: 40px;
-}
 #footer-left {
     display: flex;
     align-items: center;
+    gap: 5px;
+}
+#github {
+   height: 40px;
+   width: 40px; 
+}
+#github:hover {
+    opacity: 0.6;
 }
 
 
@@ -204,5 +213,18 @@ a {
 #image {
     width: 32vw;
     height: 32vw;
+    object-fit: cover;
+}
+#image-back {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1111;
+    opacity: 0.5;
+    filter: blur(8px);
+}
+#image-back img {
+    width: 50vw;
+    height: 50vh;
     object-fit: cover;
 }

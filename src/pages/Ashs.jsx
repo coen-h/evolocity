@@ -6,7 +6,9 @@ export default function Ashs() {
     return (
         <>
             <Header />
-            <p>test</p>
+                <div style={{width: "100vw", height: "100vh"}}>
+
+                </div>
             <Footer />
         </>
     )
