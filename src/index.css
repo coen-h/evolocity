@@ -228,3 +228,22 @@ a {
     height: 50vh;
     object-fit: cover;
 }
+
+#ashs-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+}
+#ashs-section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+#ashs-section > img {
+    
+}
+#ashs-section > div {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
