@@ -54,7 +54,7 @@ export default function About() {
             <p>Regional Finals are open to the public and are a great opportunity for everyone to check out 
                 the world of EV racing!
             </p>
-            <a href="https://evolocity.co.nz">- Evolocity</a>
+            <a href="https://evolocity.co.nz" target="_blank">- Evolocity</a>
         </div>
         <Footer />
     </>

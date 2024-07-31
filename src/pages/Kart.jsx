@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-function BoxSection({ title, children, index, rotateWheel }) {
+function BoxSection({ title, children, index }) {
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0.2 * (index - 1), 0.2 * index, 0.2 * (index + 1)], [0, 1, 0]);
   const translateY = useTransform(scrollYProgress, [0.2 * index, 0.2 * (index + 1)], [0, 25]);

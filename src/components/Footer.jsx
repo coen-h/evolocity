@@ -10,7 +10,7 @@ export default function Footer() {
             </div>
             <div id="footer-right">
                 <a href="https://github.com/coen-h" target="_blank" >
-                    <img src="/github-mark.png" id="github"/>
+                    <i className="fa-brands fa-github" id="github"/>
                 </a>
             </div>
         </div>

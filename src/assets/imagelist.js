@@ -8,9 +8,9 @@ const imageList = [
     'https://evolocity.co.nz/wp-content/uploads/2023/11/IMG_0912-scaled.jpeg',
     'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC1613-1.jpg',
     'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC1297.jpg',
-    'https://evolocity.co.nz/wp-content/uploads/2023/11/20231021-nz-chch-055-1.jpg',
-    'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0199.jpg',
-    'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0109.jpg'
+    // 'https://evolocity.co.nz/wp-content/uploads/2023/11/20231021-nz-chch-055-1.jpg',
+    // 'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0199.jpg',
+    // 'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0109.jpg'
   ];
   
   export default imageList;
