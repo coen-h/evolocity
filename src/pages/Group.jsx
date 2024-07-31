@@ -10,9 +10,9 @@ export default function Ashs() {
         <>
             <Header />
                 <div id="ashs-section">
-                    <img src="https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0109.jpg"/>
-                    <div>
-                        <p>{name}</p>
+                    <img src={`/${name}.jpg`}/>
+                    <div style={{padding: "70px 0 0 10px"}}>
+                        <p style={{fontSize: "2rem", fontWeight: "600", margin: "0"}}>{name.toUpperCase()}</p>
                         <p>this is the description of the kart</p>
                     </div>
                 </div>
