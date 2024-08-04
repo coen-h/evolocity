@@ -24,7 +24,7 @@ export default function Info() {
                         2 wheel electric bike.
                     </p>
                 </div>
-                <img id="info-image" src="/3.jpg" />
+                <img id="info-image" src="/3.jpg" alt="Planning Kart" />
             </motion.div>
             <motion.div
                 id="info-cardr" 
@@ -45,7 +45,7 @@ export default function Info() {
                         and brakes.
                     </p>
                 </div>
-                <img id="info-image" src="/2.png" />
+                <img id="info-image" src="/2.png" alt="Build Kart" />
             </motion.div>
             <motion.div 
                 id="info-cardl" 
@@ -67,7 +67,7 @@ export default function Info() {
                         against other schools to prove your kart is the best!
                     </p>
                 </div>
-                <img id="info-image" src="/4.jpg" />
+                <img id="info-image" src="/4.jpg" alt="Driving Kart" />
             </motion.div>
         </div>
     )

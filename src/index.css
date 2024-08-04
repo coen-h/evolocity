@@ -39,6 +39,9 @@ a {
 #header-image {
     height: 40px;
 }
+#menu-button {
+    display: none;
+}
 
 
 
@@ -127,7 +130,7 @@ a {
     align-items: center;
     border: 1px solid black;
     box-shadow: 1px 2px 100px rgb(50, 106, 197);
-    padding: 1.75rem 32rem;
+    padding: 1.75rem 34vw;
     border-radius: 12px;
     background-color: rgba(0,0,0,0.05);
     gap: 10px;
@@ -163,8 +166,8 @@ a {
     gap: 5px;
 }
 #github {
-   font-size: 40px;
-   opacity: 0.75;
+   font-size: 2.5rem;
+   opacity: 0.6;
 }
 #github:hover {
     opacity: 1;
@@ -254,4 +257,66 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+#ashs-info > p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* MOBILE SCALING */
+
+@media (max-width: 1000px) {
+    .info-card {
+        width: 80vw;
+    }
+    #info-cardr {
+        align-self: center;
+    }
+    #info-cardl {
+        align-self: center;
+    }
+    #info-content {
+        font-size: 0.9rem;
+    }
+    #hero-description {
+        flex-direction: column;
+    }
+}
+@media (max-width: 750px) {
+    #signup-content {
+        padding: 1.25rem 25vw;
+    }
+    #info-title {
+        font-size: 2.5rem;
+        margin: 0.5rem 0;
+    }
+}
+@media (max-width: 500px) {
+    #info-content {
+        font-size: 0.75rem;
+    }
+    #info-content > p {
+        margin: 1.5vw 0;
+    }
+    #signup-content > p {
+        font-size: 6vw
+    }
+    #signup {
+        margin: 2.5rem 0;
+    }
+    #info-title {
+        font-size: 10vw;
+        margin: 0.2rem 0;
+    }
+    #hero-title {
+        font-size: 18vw;
+        margin: 0;
+    }
+    #header-section {
+        padding: 0 3vw;
+    }
+    #menu-button {
+        display: flex;
+    }
 }
