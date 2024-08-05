@@ -11,8 +11,8 @@ export default function Ashs() {
             <Header />
                 <div id="ashs-section">
                     <img src={`/${name}.jpg`} alt="Group Kart Image" />
-                    <div style={{padding: "70px 5px 0 10px"}}>
-                        <p style={{fontSize: "2rem", fontWeight: "600", margin: "0"}}>{name.toUpperCase()}</p>
+                    <div id="ashs-content" style={{padding: "70px 5px 0 10px"}}>
+                        <p id="ashs-title" style={{fontSize: "2rem", fontWeight: "600", margin: "0"}}>{name.toUpperCase()}</p>
                         { name === 'wheeli' && (
                             <div id="ashs-info">
                                 <p>
@@ -26,7 +26,7 @@ export default function Ashs() {
                                     especially working as a team working towards a goal. As you can see we haven't completed
                                     our build yet but we are getting closer everyday.
                                 </p>
-                                <div style={{padding: "0 0 45px 0"}}>
+                                <div id="ashs-pros" style={{padding: "0 0 45px 0"}}>
                                     <h2>Pros:</h2>
                                     <p>Lightweight</p>
                                     <p>Agile</p>
@@ -41,7 +41,7 @@ export default function Ashs() {
                                 <p>
                                     This is info about the tank!
                                 </p>
-                                <div style={{padding: "0 0 45px 0"}}>
+                                <div id="ashs-pros" style={{padding: "0 0 45px 0"}}>
                                     <h2>Pros:</h2>
                                     <p>Strongly built</p>
                                     <p>Big</p>
@@ -56,7 +56,7 @@ export default function Ashs() {
                                 <p>
                                     This is info about spark-plug, the veterans.
                                 </p>
-                                <div style={{padding: "0 0 45px 0"}}>
+                                <div id="ashs-pros" style={{padding: "0 0 45px 0"}}>
                                     <h2>Pros:</h2>
                                     <p>Good design</p>
                                     <p>Suprisingly good turning</p>
@@ -71,7 +71,7 @@ export default function Ashs() {
                                 <p>
                                     This is info for the other groups.
                                 </p>
-                                <div style={{padding: "0 0 45px 0"}}>
+                                <div id="ashs-pros" style={{padding: "0 0 45px 0"}}>
                                     <h2>Pros:</h2>
                                     <p>none</p>
                                     <p>none</p>

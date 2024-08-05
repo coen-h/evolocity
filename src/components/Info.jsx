@@ -52,10 +52,9 @@ export default function Info() {
                 className="info-card"
                 initial="hidden"
                 whileInView="visible"
-                
                 variants={{
                   visible: { opacity: 1, x: 0 },
-                  hidden: { opacity: 0, x: -400 }
+                  hidden: { opacity: 0, x: -280 }
                 }}
                 transition={{ type: "spring", stiffness: 50, delay: 0.6 }}
             >
