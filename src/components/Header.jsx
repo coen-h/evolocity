@@ -22,7 +22,7 @@ export default function Header() {
                     <Link to="/about">About</Link>
                 </div>
                 <div id="menu-section" style={{flexDirection: "column"}}>
-                    <button id="menu-button" onClick={toggleDropdown} >
+                    <button aria-label="Menu" id="menu-button" onClick={toggleDropdown} >
                         <i id="menu-icon" className={isDropdownVisible ? "fa-solid fa-x" : "fa-solid fa-bars"}></i>
                     </button>
                     {isDropdownVisible && (
