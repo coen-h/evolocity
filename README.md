@@ -1,19 +1,23 @@
-# evolocity
+# Evolocity
 
 My Evolocity Project for school, it's meant to show what is done in Evolocity and all the teams at my school.
 
 <br/>
 
-### Links:
-https://zmov.vercel.app
+## Links:
+#### Main Site:
+https://evolocity.coen.ovh
+<br/>
+#### Mirror:
+https://evolocity.vercel.app
 
 <br/>
 
 ## Run Locally
 
-### :white_check_mark: Requirements
+### Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 <br/>
 

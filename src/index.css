@@ -10,6 +10,9 @@ a {
 }
 
 
+/* HEADER */
+
+
 #header {
     position: fixed;
     width: 100vw;
@@ -84,7 +87,7 @@ a {
     border-radius: 4px;
 }
 
-
+/* HERO HOME PAGE */
 
 #hero {
     display: flex;
@@ -115,6 +118,7 @@ a {
     z-index: -1;
 }
 
+/* INFO HOME PAGE */
 
 #info {
     display: flex;
@@ -156,6 +160,7 @@ a {
     border-radius: 8px;
 }
 
+/* SIGNUP MAIN PAGE */
 
 #signup {
     display: flex;
@@ -189,6 +194,7 @@ a {
     gap: 5px;
 }
 
+/* FOOTER */
 
 #footer {
     display: flex;
@@ -214,6 +220,7 @@ a {
     opacity: 1;
 }
 
+/* ABOUT PAGE */
 
 #about {
     background-image: radial-gradient(circle at center, rgba(0,0,255,0.10), rgba(255, 255, 255, 0) 55%);
@@ -221,6 +228,7 @@ a {
     text-align: center;
 }
 
+/* KART PAGE */
 
 #kart {
     display: flex;
@@ -248,6 +256,7 @@ a {
     width: 50%;
 }
 
+/* IMAGES PAGE */
 
 #images {
     min-height: 100vh;
@@ -274,6 +283,8 @@ a {
     height: 50vh;
     object-fit: cover;
 }
+
+/* ASHS PAGE */
 
 #ashs-box {
     display: flex;
@@ -306,6 +317,7 @@ a {
 
 
 /* MOBILE SCALING */
+
 
 @media (max-width: 1000px) {
     .info-card {
