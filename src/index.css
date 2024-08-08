@@ -10,13 +10,25 @@ a {
 }
 .dark-mode {
     color: white !important;
-    background-color: rgba(0,0,0,0.75) !important;
+    background-color: rgba(0,0,0,0.85) !important;
 }
 .dark-mode a {
     color: white !important;
 }
 .dark-mode #hero-title {
     color: rgba(90, 135, 220, 1);
+}
+.dark-mode #dark-button {
+    background-color: rgba(255,255,255,.25) !important;
+}
+.dark-mode #dark-button:hover {
+    background-color: rgba(255,255,255,.15) !important;
+}
+.no-filter {
+    backdrop-filter: blur(0px) !important;
+}
+.with-filter {
+    backdrop-filter: blur(5px) !important;
 }
 
 
@@ -27,9 +39,10 @@ a {
     position: fixed;
     width: 100vw;
     height: 60px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(158, 158, 158, 0.8));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(158, 158, 158, 0.2));
     backdrop-filter: blur(5px);
     z-index: 1111;
+    transition: all 200ms;
 }
 #header-section {
     display: flex;
@@ -96,6 +109,14 @@ a {
     background-color: rgba(0,0,0,0.15);
     border-radius: 4px;
 }
+#dark-button {
+    border: 0;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,.25);
+}
+#dark-button:hover {
+    background-color: rgba(0,0,0,.15);
+}
 
 /* HERO HOME PAGE */
 
@@ -142,7 +163,7 @@ a {
     align-items: center;
     gap: 20px;
     background:
-        radial-gradient(circle at top, rgba(180, 200, 255, 0.50) 0, transparent 40%),
+        radial-gradient(circle at top, rgba(110, 185, 255, 0.5) 0, transparent 40%),
         radial-gradient(circle at right, rgba(120, 200, 255, 0.65) 0, transparent 25%),
         radial-gradient(circle at left, rgba(25, 100, 150, 0.45) 0, transparent 25%);
 }
@@ -218,7 +239,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(167, 167, 167, 0.6));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(167, 167, 167, 0.2));
 }
 #footer-right {
     display: flex;

@@ -40,7 +40,7 @@ export default function Kart() {
       <div id="kart">
         {sections.map((section, index) => (
           <React.Fragment key={index}>
-            <div style={{ height: '150vh' }} />
+            <div style={{ height: '120vh' }} />
             <BoxSection {...section} index={index}>
               {section.title === 'Wheels' && (
                 <>
