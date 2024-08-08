@@ -8,6 +8,16 @@ a {
     text-decoration: none;
     color: black;
 }
+.dark-mode {
+    color: white !important;
+    background-color: rgba(0,0,0,0.75) !important;
+}
+.dark-mode a {
+    color: white !important;
+}
+.dark-mode #hero-title {
+    color: rgba(90, 135, 220, 1);
+}
 
 
 /* HEADER */
@@ -101,12 +111,14 @@ a {
     margin: 25px;
     font-size: 5rem;
     font-weight: 600;
+    z-index: 11;
 }
 #hero-description {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
+    z-index: 11;
 }
 #hero-image {
     width: 100vw;
@@ -120,7 +132,6 @@ a {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
 }
 
 /* INFO HOME PAGE */

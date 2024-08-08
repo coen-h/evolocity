@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
     const [isDropdownVisible, setDropdownVisible] = useState(false);
+    const [darkMode, setDarkMode] = useState(true)
 
     const toggleDropdown = () => {
         setDropdownVisible(!isDropdownVisible);
     };
+
+    const toggleDark = () => {
+        setDarkMode(!darkMode)
+        const element = document.body;
+        element.classList.toggle("dark-mode");
+    }
     
     return (
         <div id="header">
@@ -20,6 +27,9 @@ export default function Header() {
                 <div id="header-right">
                     <Link to="/image">Images</Link>
                     <Link to="/about">About</Link>
+                    <button style={{width: "50px", height: "30px"}} onClick={toggleDark}>
+                        <i class={darkMode ? "fa-solid fa-sun" : "fa-solid fa-moon"}></i>
+                    </button>
                 </div>
                 <div id="menu-section" style={{flexDirection: "column"}}>
                     <button aria-label="Menu" id="menu-button" onClick={toggleDropdown} >
@@ -32,6 +42,9 @@ export default function Header() {
                             <div style={{borderBottom: "1px black solid"}} />
                             <Link to="/image">Images</Link>
                             <Link to="/about">About</Link>
+                            <button style={{width: "100%", height: "32.8px"}} onClick={toggleDark}>
+                                <i class={darkMode ? "fa-solid fa-sun" : "fa-solid fa-moon"}></i>
+                            </button>
                         </div>
                     )}
                 </div>
