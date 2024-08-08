@@ -34,7 +34,7 @@ export default function Header() {
       }, [darkMode]);
     
     return (
-        <div id="header" className={`${isTop ? 'with-filter' : 'no-filter'}`}>
+        <div id="header" className={`${isTop ? darkMode ? 'dark-filter' : 'light-filter' : 'no-filter'}`}>
             <div id="header-section">
                 <Link id="menu-logo" to="/"><img id="header-image" src="/logo.png" alt="Logo" /></Link>
                 <div id="header-left">
