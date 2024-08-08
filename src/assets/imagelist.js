@@ -1,4 +1,5 @@
 const imageList = [
+    'https://evolocity.co.nz/wp-content/uploads/2021/11/Evolocity_WellingtonManawatu_RegionalFinals2021_KartRacingTrike-min-scaled-2560x1280.jpeg',
     'https://evolocity.co.nz/wp-content/uploads/2023/12/IMG_4460-1-scaled.jpeg',
     'https://evolocity.co.nz/wp-content/uploads/2023/12/Next-Gen-National-Rally-Day-2023-63-2-scaled.jpg',
     'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0085.jpg',
@@ -7,7 +8,7 @@ const imageList = [
     'https://evolocity.co.nz/wp-content/uploads/2023/11/IMG_0910-scaled.jpeg',
     'https://evolocity.co.nz/wp-content/uploads/2023/11/IMG_0912-scaled.jpeg',
     'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC1613-1.jpg',
-    'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC1297.jpg',
+    // 'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC1297.jpg',
     // 'https://evolocity.co.nz/wp-content/uploads/2023/11/20231021-nz-chch-055-1.jpg',
     // 'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0199.jpg',
     // 'https://evolocity.co.nz/wp-content/uploads/2023/11/DSC_0109.jpg'
