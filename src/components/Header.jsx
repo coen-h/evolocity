@@ -45,7 +45,7 @@ export default function Header() {
                 <div id="header-right">
                     <Link to="/image">Images</Link>
                     <Link to="/about">About</Link>
-                    <button id="dark-button" style={{width: "70px", height: "30px"}} onClick={toggleDark}>
+                    <button aria-label="Dark Mode Toggle" id="dark-button" style={{width: "70px", height: "30px"}} onClick={toggleDark}>
                         <i style={{fontSize: "16px"}} className={darkMode ? "fa-solid fa-moon" : "fa-solid fa-sun"}></i>
                     </button>
                 </div>
@@ -60,7 +60,7 @@ export default function Header() {
                             <div style={{borderBottom: "1px black solid"}} />
                             <Link to="/image">Images</Link>
                             <Link to="/about">About</Link>
-                            <button id="dark-button" style={{width: "100%", height: "32.8px"}} onClick={toggleDark}>
+                            <button aria-label="Dark Mode Toggle" id="dark-button" style={{width: "100%", height: "32.8px"}} onClick={toggleDark}>
                                 <i style={{fontSize: "16px"}} className={darkMode ? "fa-solid fa-moon" : "fa-solid fa-sun"}></i>
                             </button>
                         </div>
