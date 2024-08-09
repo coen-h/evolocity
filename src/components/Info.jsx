@@ -18,7 +18,7 @@ export default function Info() {
             >
                 <div id="info-content">
                     <p>1 - Plan your build.</p>
-                    <p>
+                    <p style={{paddingRight: "10px"}}>
                         Start planning out your build, do you want to build
                         a 4 wheel kart, a trike / reverse trike, or even a 
                         2 wheel electric bike.
@@ -39,7 +39,7 @@ export default function Info() {
             >
                 <div id="info-content">
                     <p>2 - Start your build!</p>
-                    <p>
+                    <p style={{paddingRight: "10px"}}>
                         Start making your frame and slowly adding on parts
                         until you have a complete kart with a electric motor
                         and brakes.
@@ -61,7 +61,7 @@ export default function Info() {
 
                 <div id="info-content">
                     <p>3 - Race your Kart!</p>
-                    <p>
+                    <p style={{paddingRight: "10px"}}>
                         Bring your kart to the race in November and compete
                         against other schools to prove your kart is the best!
                     </p>

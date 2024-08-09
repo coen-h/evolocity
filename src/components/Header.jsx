@@ -7,7 +7,7 @@ export default function Header() {
         const savedMode = localStorage.getItem('darkMode');
         return savedMode ? JSON.parse(savedMode) : true;
     });
-    const [isTop, setIsTop] = useState(true);
+    const [isTop, setIsTop] = useState(false);
 
     const toggleDropdown = () => {
         setDropdownVisible(!isDropdownVisible);
