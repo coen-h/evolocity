@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { useParams } from 'react-router-dom';
 
 export default function Ashs() {
     const { name } = useParams();
+
+    useEffect(() => {
+        document.title = `${name.charAt(0).toUpperCase() + name.slice(1)} - Evolocity`;
+    }, []);
 
     return (
         <>

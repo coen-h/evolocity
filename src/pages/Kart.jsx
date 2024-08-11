@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -33,6 +33,9 @@ export default function Kart() {
     { title: 'Motor' },
     { title: 'Battery' }
   ];
+  useEffect(() => {
+    document.title = 'Kart - Evolocity';
+  }, []);
 
   return (
     <>
