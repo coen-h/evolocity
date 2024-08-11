@@ -7,6 +7,7 @@ import Kart from './pages/Kart'
 import Images from './pages/Images'
 import Ashs from './pages/Ashs'
 import Group from './pages/Group'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="image" element={<Images />} />
         <Route path="ashs" element={<Ashs />} />
         <Route path="ashs/:name" element={<Group />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )

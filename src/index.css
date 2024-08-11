@@ -378,6 +378,32 @@ a {
     line-height: 1.6;
 }
 
+/* NOT FOUND */
+
+#notfound {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#notfound-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.5;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgba(0,0,0,0.2);
+    transition: 200ms all;
+}
+#notfound-link:hover {
+    opacity: 1;
+}
+
 
 /* MOBILE SCALING */
 
