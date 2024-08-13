@@ -250,7 +250,7 @@ a {
     position: absolute;
     width: 80vw;
     height: 212px;
-    translate: 0 -16%;
+    translate: 0 -16.25%;
     padding: 8px 35px;
     background-image: conic-gradient(from var(--angle), transparent 75%, rgba(50,105,205,1));
     border-radius: 18px;

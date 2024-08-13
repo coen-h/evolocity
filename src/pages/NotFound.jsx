@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function NotFound() {
@@ -13,4 +13,4 @@ export default function NotFound() {
             <Link  to="/" id="notfound-link">Home</Link>
         </div>
     );
-};
+}

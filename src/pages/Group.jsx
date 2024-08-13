@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { useParams } from 'react-router-dom';
@@ -8,7 +8,7 @@ export default function Ashs() {
 
     useEffect(() => {
         document.title = `${name.charAt(0).toUpperCase() + name.slice(1)} - Evolocity`;
-    }, []);
+    });
 
     return (
         <>
@@ -23,11 +23,11 @@ export default function Ashs() {
                                     This is my group for Evolocity, We started making our kart at the start of the year
                                     like the other two more complete groups. At first, we decided to make a reverse trike
                                     as we felt it would have the most power with one big back wheel while being stable
-                                    enough. As we built our kart up, we realised this one back wheel won't be enough to
-                                    keep our kart from tipping so we had to make it a 4 wheeler. It's taking us a lot
-                                    longer than we first thought because of the many issues we've found and had to fix
-                                    using problem solving. I felt like I've learnt a alot from taking Evolocity,
-                                    especially working as a team working towards a goal. As you can see we haven't completed
+                                    enough. As we built our kart up, we realised this one back wheel won`&apos;`t be enough to
+                                    keep our kart from tipping so we had to make it a 4 wheeler. It`&apos;`s taking us a lot
+                                    longer than we first thought because of the many issues we`&apos;`ve found and had to fix
+                                    using problem solving. I felt like I`&apos;`ve learnt a alot from taking Evolocity,
+                                    especially working as a team working towards a goal. As you can see we haven`&apos;`t completed
                                     our build yet but we are getting closer everyday.
                                 </p>
                                 <div id="ashs-pros" style={{padding: "0 0 45px 0"}}>

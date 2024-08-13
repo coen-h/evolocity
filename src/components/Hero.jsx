@@ -1,4 +1,3 @@
-import React from 'react'
 import imageList from '../assets/imagelist'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -27,8 +26,8 @@ export default function Hero() {
                 
             </Swiper>
             <p id="hero-title" >Evolocity</p>
-            <div id="hero-description"><p>"EVolocity is the EV programme inspiring young Kiwis into sustainable
-            engineering while fast forwarding New Zealand’s clean tech future."</p><a href="https://evolocity.co.nz/" target="_blank" aria-label="Website" > - Evolocity</a></div>
+            <div id="hero-description"><p>`&quot;`EVolocity is the EV programme inspiring young Kiwis into sustainable
+            engineering while fast forwarding New Zealand’s clean tech future.`&quot;`</p><a href="https://evolocity.co.nz/" target="_blank" aria-label="Website" > - Evolocity</a></div>
         </div>
     )
 }

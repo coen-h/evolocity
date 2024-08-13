@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Signup() {
     return (
         <div id="signup">
@@ -8,10 +6,10 @@ export default function Signup() {
                 <p>Sign up now!</p>
                 <div id="signup-bar" style={{display: "flex", gap: "12px"}}>
                     <a href="https://evolocity.co.nz" target="_blank" aria-label="Website">
-                        <i style={{fontSize: "2.25rem"}} class="fa-solid fa-earth-americas" />
+                        <i style={{fontSize: "2.25rem"}} className="fa-solid fa-earth-americas" />
                     </a>
                     <a href="mailto:admin@evolocity.co.nz" target="_blank" aria-label="Email">
-                        <i style={{fontSize: "2.25rem"}} class="fa-solid fa-inbox" />
+                        <i style={{fontSize: "2.25rem"}} className="fa-solid fa-inbox" />
                     </a>
                 </div>
             </div>
