@@ -1,7 +1,9 @@
+<div align="center"> 
+  
 # Evolocity
 
 My Evolocity Project for school, it's meant to show what is done in Evolocity and all the teams at my school.
-
+</div>
 <br/>
 
 ## Links:
