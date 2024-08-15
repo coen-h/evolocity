@@ -97,7 +97,7 @@ export default function Kart() {
                     <img style={{width: "100vw", height: "100vh"}} src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d6ba0a95120005.5e8f9bb38ddad.png" alt="Steering Axle" />
                   </div>
                   <p style={{ textAlign: "center" }}>
-                    Steering is probably the most important part of the kart and it`&apos;`s the hardest to get right.
+                    Steering is probably the most important part of the kart and it&apos;s the hardest to get right.
                     You will need to figure out how you will attach the steering to the wheels then ensure
                     you have a big enough steering radius and strength for going at fast speeds.
                   </p>  
@@ -112,7 +112,7 @@ export default function Kart() {
                     <img src="https://m.media-amazon.com/images/I/71r5mK1VaDL._AC_UF894,1000_QL80_.jpg" alt="Motor" />
                   </div>
                   <p style={{ textAlign: "center" }}>
-                    Once you have finished your steering, you will need to position your motor so it`&apos;`s attached
+                    Once you have finished your steering, you will need to position your motor so it&apos;s attached
                     to your steering axle / wheels while having enough room to not interfere with other
                     important parts like your batteries.
                   </p>
