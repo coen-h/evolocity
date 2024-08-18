@@ -1,3 +1,4 @@
+import React from 'react'
 import imageList from '../assets/imagelist'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
