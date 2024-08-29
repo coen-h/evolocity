@@ -286,18 +286,18 @@ a {
 }
 #footer-right {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 #footer-left {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-#github {
+#footer-icon {
    font-size: 2.5rem;
    opacity: 0.6;
 }
-#github:hover {
+#footer-icon:hover {
     opacity: 1;
 }
 

@@ -7,8 +7,11 @@ export default function Footer() {
                 <p>Project</p>
             </div>
             <div id="footer-right">
+                <a href="https://status.coen.ovh" target="_blank" aria-label="Server" >
+                    <i className="fa-solid fa-server" id="footer-icon" />
+                </a>
                 <a href="https://github.com/coen-h" target="_blank" aria-label="Github" >
-                    <i className="fa-brands fa-github" id="github"/>
+                    <i className="fa-brands fa-github" id="footer-icon"/>
                 </a>
             </div>
         </div>

@@ -4,6 +4,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
+BoxSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+  index: PropTypes.number.isRequired,
+};
+
 function BoxSection({ title, children, index }) {
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0.2 * (index - 1), 0.2 * index, 0.2 * (index + 1)], [0, 1, 0]);
@@ -24,12 +30,6 @@ function BoxSection({ title, children, index }) {
     </motion.div>
   );
 }
-
-BoxSection.propTypes = {
-  title: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
-  index: PropTypes.number.isRequired,
-};
 
 export default function Kart() {
   const sections = [
