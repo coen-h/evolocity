@@ -3,7 +3,7 @@ export default function Footer() {
         <div id="footer">
             <div id="footer-left">
                 <p>My</p>
-                <img src="/logo.png" style={{height: "35px"}} alt="Logo" />
+                <img src="/logo.webp" style={{height: "35px"}} alt="Logo" />
                 <p>Project</p>
             </div>
             <div id="footer-right">

@@ -14,7 +14,7 @@ export default function Ashs() {
         <>
             <Header />
                 <div id="ashs-section">
-                    <img src={`/${name}.jpg`} alt="Group Kart Image" />
+                    <img src={`/${name}.webp`} alt="Group Kart Image" />
                     <div id="ashs-content" style={{padding: "70px 5px 0 10px"}}>
                         <p id="ashs-title" style={{fontSize: "2rem", fontWeight: "600", margin: "0"}}>{name.toUpperCase()}</p>
                         { name === 'wheeli' && (

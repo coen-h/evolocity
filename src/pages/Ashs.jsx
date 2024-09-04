@@ -9,10 +9,10 @@ export default function Ashs() {
     }, []);
     
     const sections = [
-        { title: 'Wheeli', image: '/wheeli.jpg' },
-        { title: 'Tank', image: '/tank.jpg' },
-        { title: 'Spark-Plug', image: '/spark-plug.jpg' },
-        { title: 'Other', image: '/other.jpg' }
+        { title: 'Wheeli', image: '/wheeli.webp' },
+        { title: 'Tank', image: '/tank.webp' },
+        { title: 'Spark-Plug', image: '/spark-plug.webp' },
+        { title: 'Other', image: '/other.webp' }
       ];
 
     return (
