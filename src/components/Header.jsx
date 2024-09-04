@@ -8,6 +8,7 @@ export default function Header() {
         return savedMode ? JSON.parse(savedMode) : true;
     });
     const [isTop, setIsTop] = useState(false);
+    const [noFilter, setNoFilter] = useState(false);
 
     const toggleDropdown = () => {
         setDropdownVisible(!isDropdownVisible);
@@ -21,20 +22,26 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-          const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-          setIsTop(currentScrollTop ? true : false)
+            const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            setIsTop(currentScrollTop ? true : false);
         };
-        
+
+        if (document.title === 'Kart - Evolocity') {
+            setNoFilter(true);
+        } else {
+            setNoFilter(false);
+            window.addEventListener('scroll', handleScroll);
+        }
+
         document.body.className = darkMode ? 'dark-mode' : '';
-        window.addEventListener('scroll', handleScroll);
-    
+
         return () => {
-          window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
-      }, [darkMode]);
-    
+    }, [darkMode]);
+
     return (
-        <div id="header" className={`${isTop ? darkMode ? 'dark-filter' : 'light-filter' : 'no-filter'}`}>
+        <div id="header" className={`${noFilter ? 'no-filter' : isTop ? (darkMode ? 'dark-filter' : 'light-filter') : 'no-filter'}`}>
             <div id="header-section">
                 <Link id="menu-logo" to="/"><img id="header-image" src="/logo.webp" alt="Logo" /></Link>
                 <div id="header-left">
@@ -50,7 +57,7 @@ export default function Header() {
                     </button>
                 </div>
                 <div id="menu-section" style={{flexDirection: "column"}}>
-                    <button aria-label="Menu" id="menu-button" onClick={toggleDropdown} >
+                    <button aria-label="Menu" id="menu-button" onClick={toggleDropdown}>
                         <i id="menu-icon" className={isDropdownVisible ? "fa-solid fa-x" : "fa-solid fa-bars"}></i>
                     </button>
                     {isDropdownVisible && (

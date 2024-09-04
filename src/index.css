@@ -336,6 +336,19 @@ a {
 .box > p {
     width: 50%;
 }
+#kart-text {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+    width: 400px;
+    background-color:
+    rgba(0,0,0,0.5);
+    border-radius: 12px;
+}
 
 /* IMAGES PAGE */
 
@@ -353,11 +366,8 @@ a {
 }
 #image-back {
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
     z-index: -1111;
     opacity: 0.5;
-    filter: blur(8px);
 }
 #image-back img {
     width: 50vw;
@@ -540,5 +550,9 @@ a {
     }
     #about {
         padding: 4rem 0.5rem 1rem 0.5rem;
+    }
+    #kart-text {
+        left: auto;
+        width: 90vw;
     }
 }
